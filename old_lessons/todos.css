@@ -1,0 +1,54 @@
+/*Element*/
+li {
+
+}
+/*class*/
+.hello {
+
+}
+/*id*/
+#name {
+
+}
+
+/*Star*/ /*Selects everything on the page */
+* {
+  border: 1px solid lightgrey;
+ }
+
+/*Descendant Selector*/ /*Takes two or more selectors and chains them together*/
+li a { /*every anchor tag that is inside of an li*/
+  color: red;
+}
+
+/*Adjacent Selector */ /*Lets us select element that come after another element---not nested inside, it selects a sibling*/
+h4 + ul {
+  border: 4px solid red;
+}
+/*Attribute Selector  */ /*A way to select elements based off of any attribute*/
+a[href="http://www.google.com"] {
+  background color: blue;
+}
+/*nth of type*/ /*Takes a number and it selects every nth of an element IE: select every 10th p on page*/
+ul:nth-of type(3){
+  background: purple;
+}
+
+
+
+
+body {
+  background:orange;
+}
+
+li  {
+  border: 2px solid red;
+}
+
+#special {
+  background: yellow;
+}
+
+.completed {
+  text-decoration: line-through;
+}

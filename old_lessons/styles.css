@@ -1,0 +1,64 @@
+/*font-family*/
+
+ p {
+  font-family: Arial;
+}
+h1 {
+  font-family: Georgia;
+}
+
+/*font-size*/
+body {
+  font-size: 10px;
+}
+h1 {
+  font-size: 5.0em;
+}
+p {
+  font-size: 2.0em;
+}
+span {
+  font-size: 2.0em;
+}
+
+/*font-weight*/
+p {
+  font-weight: bold;
+}
+
+/*line-height*/
+p {
+  line-height: 1.5;
+}
+
+/*text-align*/
+h1 {
+  text-align: right;
+}
+p {
+  text-align: center;
+}
+
+/*text-decoration*/
+p {
+  text-decoration: underline;
+}
+h1 {
+  text-decoration: line-through;
+}
+/*The Box Model*/
+p {
+/*Content - Width and Height*/
+width: 200px; or 50%; of the parent element
+height: 300px;
+/*Padding*/
+padding: 10px;
+padding-left: 40px;
+/*Border*/
+border: 2px solid blue;
+/*Margin*/
+margin: 100px;
+margin-top: 500px;
+margin: top, right, bottom, left; or 20px 40px 500px 100px;
+margin: 0 auto 0 auto; or margin: 0 auto;
+}

@@ -1,0 +1,30 @@
+h1 {
+  /*color: rgba(0,200,100,0.8);*/
+/*  border-color: purple;
+  border-width: 5px;
+  border-style: solid;
+}*/
+  border: 5px solid purple;
+}
+li {
+  color: rgb(240,0,100);
+}
+
+/*h4 {
+  color: rgba(0,200,100,0.2);
+}*/
+
+h4 {
+  background: rgb(255, 100,80);
+
+
+body {
+  background: pink;
+}
+
+/*body {*/
+ /* background: url(https://4.bp.blogspot.com/-VHZnl33GTpM/UNYD8qogZaI/AAAAAAAASjs/kT1yJ_iXfkA/s1600/wood+grain+faux+bois+overlay+white+and+black+jpg.jpg);*/
+/*  background-repeat: no-repeat;
+  background-size: cover;*/
+/*}*/
+
